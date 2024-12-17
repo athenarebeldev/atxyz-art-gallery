@@ -1,0 +1,22 @@
+[
+    {
+      "gallery": "Modern Art Museum",
+      "pieces": [
+        {
+          "title": "Starry Night",
+          "artist": "Vincent van Gogh",
+          "year": "1889",
+          "image": "assets/starry-night.jpg",
+          "description": "A famous painting by Van Gogh."
+        },
+        {
+          "title": "Composition VIII",
+          "artist": "Wassily Kandinsky",
+          "year": "1923",
+          "image": "assets/composition-viii.jpg",
+          "description": "An abstract painting full of shapes."
+        }
+      ]
+    }
+  ]
+  

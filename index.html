@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Art Gallery Collection</h1>
+        <input type="text" id="searchInput" placeholder="Search art..." />
+    </header>
+    
+    <main>
+        <!-- Section for interactive galleries -->
+        <section id="gallerySection">
+            <h2>Galleries</h2>
+            <div id="galleryContainer"></div>
+        </section>
+
+        <!-- Section for full list -->
+        <section id="fullListSection">
+            <h2>Full Art List</h2>
+            <ul id="artList"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created with ❤️ for Christmas</p>
+    </footer>
+
+    <script src="data.json"></script>
+    <script src="components/search.js"></script>
+    <script src="components/galleryView.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
